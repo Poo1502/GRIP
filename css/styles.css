@@ -43,6 +43,7 @@ position: relative;
 }
 
 .btn{
+  text-decoration: none;
   background-color: #e93b81;
   color: white;
   text-align:left;
@@ -111,7 +112,27 @@ color: black;
 .foot-icon{
   margin:1%;
 }
-.copyright{
 
+/* donate-page */
+ .donation-page{
+  background-image:url("../images/bg-img.jpg");
+  background-repeat: no-repeat;
+ background-size:cover;
+  opacity:0.75;
+  position: fixed;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
 
+.third-heading{
+  width:450px;
+  		box-shadow: 0 0 3px 0 rgba(255, 0, 0, 0.8);
+  		background:#fff;
+  		padding:40px;
+  		margin:10% auto 0;
+  		text-align:center;
+  		border-radius: 35px;
+  		opacity:0.8;
 }
