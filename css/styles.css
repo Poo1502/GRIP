@@ -127,7 +127,7 @@ color: black;
 }
 
 .third-heading{
-  width:450px;
+               width:450px;
   		box-shadow: 0 0 3px 0 rgba(255, 0, 0, 0.8);
   		background:#fff;
   		padding:40px;
@@ -135,4 +135,10 @@ color: black;
   		text-align:center;
   		border-radius: 35px;
   		opacity:0.8;
+}
+
+@media(max-width:400px){
+	.donation-page{
+		position: static;
+	}
 }
