@@ -137,8 +137,3 @@ color: black;
   		opacity:0.8;
 }
 
-@media(min-width:400px){
-	.donation-page{
-		position: static;
-	}
-}
